@@ -10,6 +10,7 @@ const {price, refreshRate} = product;
 
 console.log({price});
 console.log({ refreshRate});
+// loggen in 1 command: console.log(price, refreshRate);
 
 // Opdracht 2: Destructure type en brand uit onderstaand object, en log ze daarna in de terminal
 
@@ -24,6 +25,7 @@ const productInformation = {
 }
 
 const {general: {brand, type} } = productInformation;
+// Ook mogelijk: const { brand, type } = productInformation.general;
 console.log({brand});
 console.log({type});
 
